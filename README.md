@@ -27,7 +27,6 @@ cloudflared tunnel --url http://localhost:3001
 
 Use the generated `https://*.trycloudflare.com/mcp` URL as your MCP server endpoint.
 
-> Disable Cloudflare WARP before running the tunnel.
 
 ## Configure
 
@@ -49,8 +48,9 @@ Add to `~/.config/Code/User/mcp.json` (global) or `.vscode/mcp.json` (workspace)
 ### ChatGPT
 
 1. Start the tunnel (see above)
-2. Go to [chatgpt.com](https://chatgpt.com) → Settings → MCP Servers → Add Server
-3. Paste the tunnel URL: `https://<your-tunnel>.trycloudflare.com/mcp`
+2. Go to [chatgpt.com](https://chatgpt.com) → Settings → Apps & Connectors → Add new connector
+3. Enter a name (e.g. "Flappy Bird") and paste the tunnel URL: `https://<your-tunnel>.trycloudflare.com/mcp`
+4. In a new chat, click **+** → **More** → select the connector
 
 ### Claude.ai
 
