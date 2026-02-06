@@ -32,18 +32,7 @@ Use the generated `https://*.trycloudflare.com/mcp` URL as your MCP server endpo
 
 ### VS Code (1.109+)
 
-Add to `~/.config/Code/User/mcp.json` (global) or `.vscode/mcp.json` (workspace):
-
-```json
-{
-  "servers": {
-    "flappy-bird": {
-      "type": "http",
-      "url": "http://localhost:3001/mcp"
-    }
-  }
-}
-```
+See the [VS Code MCP docs](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) to add an HTTP server with URL `http://localhost:3001/mcp`.
 
 ### ChatGPT
 
