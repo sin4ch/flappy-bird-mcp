@@ -46,8 +46,9 @@ See the [VS Code MCP docs](https://code.visualstudio.com/docs/copilot/customizat
 ### Claude.ai
 
 1. Start the tunnel (see above)
-2. Go to [claude.ai](https://claude.ai) → Settings → Integrations → Add MCP Server
+2. Go to [claude.ai](https://claude.ai) → Settings → Connectors → click **Add custom connector**
 3. Paste the tunnel URL: `https://<your-tunnel>.trycloudflare.com/mcp`
+4. Click **Add**
 
 ## Tools
 
