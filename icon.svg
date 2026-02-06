@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Bird Body -->
+  <ellipse cx="120" cy="134" rx="72" ry="58" fill="#f7dc6f" stroke="#c0962e" stroke-width="5"/>
+
+  <!-- Wing -->
+  <ellipse cx="90" cy="148" rx="40" ry="22" fill="#e67e22" stroke="#c0962e" stroke-width="3" transform="rotate(-10, 90, 148)"/>
+
+  <!-- Eye (white) -->
+  <circle cx="152" cy="110" r="20" fill="white" stroke="#333" stroke-width="2.5"/>
+
+  <!-- Pupil -->
+  <circle cx="158" cy="110" r="10" fill="#111"/>
+
+  <!-- Eye highlight -->
+  <circle cx="161" cy="105" r="4" fill="white"/>
+
+  <!-- Beak (upper) -->
+  <polygon points="185,124 220,132 185,140" fill="#e74c3c" stroke="#c0392b" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Beak (lower / slightly open look) -->
+  <polygon points="185,136 215,140 185,148" fill="#d35400" stroke="#c0392b" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Tail feathers -->
+  <polygon points="48,118 22,100 52,124" fill="#e67e22" stroke="#c0962e" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="48,130 18,128 50,138" fill="#e67e22" stroke="#c0962e" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="48,140 24,154 52,144" fill="#e67e22" stroke="#c0962e" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Belly highlight -->
+  <ellipse cx="125" cy="155" rx="45" ry="25" fill="#fdebd0" opacity="0.5"/>
+</svg>

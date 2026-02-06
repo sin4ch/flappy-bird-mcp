@@ -1,0 +1,25 @@
+{
+  "name": "flappy-bird-mcp",
+  "version": "1.0.0",
+  "description": "Flappy Bird as an MCP App",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "serve": "tsx server.ts",
+    "dev": "vite build && tsx server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "^1.0.1",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.3",
+    "tsx": "^4.19.3",
+    "vite": "^6.1.0",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}
