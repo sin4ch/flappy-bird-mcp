@@ -37,9 +37,11 @@ See the [VS Code MCP docs](https://code.visualstudio.com/docs/copilot/customizat
 ### ChatGPT
 
 1. Start the tunnel (see above)
-2. Go to [chatgpt.com](https://chatgpt.com) → Settings → Apps & Connectors → Add new connector
-3. Enter a name (e.g. "Flappy Bird") and paste the tunnel URL: `https://<your-tunnel>.trycloudflare.com/mcp`
-4. In a new chat, click **+** → **More** → select the connector
+2. Go to [chatgpt.com](https://chatgpt.com) → Settings → Apps → Advanced Settings → enable **Developer Mode**
+3. Go back to Apps → click **Create App**
+4. Fill in the details and paste the tunnel URL: `https://<your-tunnel>.trycloudflare.com/mcp`
+5. Change Authentication to **No Auth**, then check "I understand and want to continue"
+6. Click **Create**
 
 ### Claude.ai
 
