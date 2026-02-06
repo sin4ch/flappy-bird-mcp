@@ -2,7 +2,7 @@
 
 A fully playable Flappy Bird game that runs inline in AI chat clients via MCP Apps.
 
-![Flappy Bird MCP App](screenshot.png)
+![Flappy Bird MCP App](demo.gif)
 
 ## Setup
 
